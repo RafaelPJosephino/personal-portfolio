@@ -1,0 +1,45 @@
+/* Home.css */
+.home {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100vh;
+  background: linear-gradient(to right, #6a11cb, #2575fc); /* Gradiente suave */
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+.home-content {
+  background: rgba(0, 0, 0, 0.7); /* Fundo semi-transparente */
+  border-radius: 10px;
+  padding: 40px;
+  max-width: 600px; /* Limitar a largura para um melhor visual */
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+}
+
+.home h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+  color: #FFDD57; /* Cor vibrante para o título */
+}
+
+.home p {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+
+/* Animação para fadeIn */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.home-content {
+  animation: fadeIn 1s ease-in;
+}

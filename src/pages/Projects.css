@@ -1,0 +1,85 @@
+/* Projects.css */
+.projects {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100vh;
+  background: linear-gradient(to right, #6a11cb, #2575fc); /* Gradiente suave */
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+.projects-content {
+  background: rgba(0, 0, 0, 0.7); /* Fundo semi-transparente */
+  border-radius: 10px;
+  padding: 40px;
+  width: 90vw;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+}
+
+.projects h2 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+  color: #FFDD57; /* Cor vibrante para o título */
+}
+
+.project-card {
+  width: 400px;
+  height: 800px; /* Altura do card */
+  background-color: rgba(255, 255, 255, 0.1); /* Fundo semi-transparente */
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: transform 0.2s;
+}
+
+.project-card:hover {
+  transform: scale(1.05); /* Efeito de hover */
+}
+
+.project-card img {
+  width: 100%; /* Ocupa a largura total do card */
+  height: 400px; /* Altura da imagem */
+  object-fit: scale-down; /* Mantém a proporção da imagem */
+  border-radius: 5px;
+}
+
+.project-card h3 {
+  margin: 20px 0 10px;
+  font-size: 1.5rem;
+  color: #FFDD57; /* Cor vibrante para o título do projeto */
+}
+
+.project-card p {
+  font-size: 1rem;
+  color: #FFDD57; /* Cor vibrante para a descrição */
+}
+
+.project-links {
+  margin-top: auto; /* Empurra os links para baixo */
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.project-links a {
+  color: #FFDD57; /* Cor dos links */
+  text-decoration: none;
+  font-weight: bold; /* Deixa o texto mais destacado */
+}
+
+.project-links a:hover {
+  text-decoration: underline;
+  color: #FFDD57; /* Efeito de hover para os links */
+}
+
+/* Ajustar o espaçamento entre os slides do carrossel */
+.slick-slide {
+  padding: 10px;
+  margin: 10px 0;
+}

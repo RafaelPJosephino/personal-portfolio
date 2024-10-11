@@ -1,0 +1,34 @@
+[
+  {
+    "id": 1,
+    "title": "Graphql Netflix",
+    "description": "A simple ReactJS Netflix homepage clone running on Astra DB that leverages the GraphQL API with paging and infinite scrolling",
+    "imageUrl": "/assets/img/project-graphql-netflix.png",
+    "repositoryUrl": "https://github.com/RafaelPJosephino/workshop-graphql-netflix",
+    "liveUrl": "https://github.com/RafaelPJosephino/workshop-graphql-netflix"
+  },
+  {
+    "id": 2,
+    "title": "React Calculator",
+    "description": "A simple and user-friendly calculator built with React. This project demonstrates basic React concepts, including component structure, state management, and event handling. The calculator allows users to perform basic arithmetic operations such as addition, subtraction, multiplication, and division.",
+    "imageUrl": "/assets/img/project-calculator.png",
+    "repositoryUrl": "https://github.com/RafaelPJosephino/react-calculator",
+    "liveUrl": "react-calculator-rafael-p-josephino.vercel.app"
+  },
+  {
+    "id": 3,
+    "title": "Global Insights Tribune Api",
+    "description": "Description of Project 2",
+    "imageUrl": "/assets/img/project-calculator.png",
+    "repositoryUrl": "https://github.com/RafaelPJosephino/",
+    "liveUrl": "https://github.com/RafaelPJosephino/"
+  },
+  {
+    "id": 4,
+    "title": "Café Mania",
+    "description": "This is the back-end project developed for a college assignment, Café Mania. The project aims to simulate the management system of a coffee shop, offering functionalities such as product management, orders, and customer management.",
+   "imageUrl": "/assets/img/project-api-cafe-mania.png",
+    "repositoryUrl": "https://github.com/RafaelPJosephino/CafeManiaApiV1",
+    "liveUrl": "https://coffe-mania-projects-personal-rafael-josephino.koyeb.app/swagger/index.html"
+  }
+]

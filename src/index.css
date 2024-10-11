@@ -11,3 +11,88 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0.5em 0; /* Margem para os cabeçalhos */
+  font-weight: bold; /* Negrito nos cabeçalhos */
+}
+
+h1 {
+  font-size: 2.5rem; /* Tamanho do H1 */
+  color: #333; /* Cor do H1 */
+}
+
+h2 {
+  font-size: 2rem; /* Tamanho do H2 */
+  color: #444; /* Cor do H2 */
+}
+
+h3 {
+  font-size: 1.75rem; /* Tamanho do H3 */
+  color: #555; /* Cor do H3 */
+}
+
+p {
+  margin: 0.5em 0; /* Margem para os parágrafos */
+  color: #666; /* Cor do parágrafo */
+  line-height: 1.6; /* Altura da linha */
+}
+
+a {
+  color: #007bff; /* Cor dos links */
+  text-decoration: none; /* Remove o sublinhado */
+  transition: color 0.3s ease; /* Efeito de transição suave */
+}
+
+a:hover {
+  color: #0056b3; /* Cor do link ao passar o mouse */
+  text-decoration: underline; /* Sublinha ao passar o mouse */
+}
+
+button {
+  font-family: inherit; /* Herda a fonte do body */
+  font-size: inherit; /* Herda o tamanho da fonte do body */
+  color: white; /* Cor do texto do botão */
+  background-color: #007bff; /* Cor de fundo do botão */
+  border: none; /* Remove bordas do botão */
+  padding: 10px 15px; /* Preenchimento do botão */
+  border-radius: 5px; /* Bordas arredondadas */
+  cursor: pointer; /* Cursor de ponteiro ao passar o mouse */
+  transition: background-color 0.3s ease; /* Efeito de transição suave */
+}
+
+button:hover {
+  background-color: #0056b3; /* Cor do botão ao passar o mouse */
+}
+
+ul, ol {
+  margin: 0; /* Remove margem padrão */
+  padding-left: 20px; /* Espaçamento à esquerda */
+  color: #555; /* Cor das listas */
+}
+
+li {
+  margin-bottom: 0.5em; /* Espaçamento entre os itens da lista */
+}
+
+blockquote {
+  border-left: 4px solid #007bff; /* Bordas à esquerda */
+  margin: 1em 0; /* Margem superior e inferior */
+  padding-left: 1em; /* Preenchimento à esquerda */
+  color: #777; /* Cor do texto da citação */
+  font-style: italic; /* Estilo itálico para citações */
+}
+
+pre {
+  background-color: #f5f5f5; /* Cor de fundo para código */
+  padding: 10px; /* Preenchimento */
+  border-radius: 5px; /* Bordas arredondadas */
+  overflow-x: auto; /* Scroll horizontal se o conteúdo for grande */
+}
+
+code {
+  background-color: #f0f0f0; /* Cor de fundo para blocos de código */
+  padding: 2px 4px; /* Preenchimento */
+  border-radius: 4px; /* Bordas arredondadas */
+}

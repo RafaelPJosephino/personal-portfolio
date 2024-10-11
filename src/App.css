@@ -1,38 +1,75 @@
-.App {
-  text-align: center;
+/* App.css */
+
+/* Reseta estilos para ter uma base consistente */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+html, body {
+  height: 100%; /* Garante que a altura ocupe 100% da tela */
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f4f9;
+  color: #333;
+  display: flex;
+  flex-direction: column; /* Organiza os filhos em coluna */
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.app-container {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  min-height: 100vh; /* O contêiner ocupa toda a altura da viewport */
+  flex: 1; /* Para expandir o contêiner */
+}
+
+a {
+  text-decoration: none;
+  color: #007BFF;
+}
+
+h1, h2, h3, h4, h5 {
+  color: #333;
+}
+
+ul {
+  list-style-type: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+header {
+  background-color: #333;
   color: white;
+  padding: 10px;
 }
 
-.App-link {
-  color: #61dafb;
+nav ul {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+nav ul li {
+  margin: 0 10px;
+}
+
+footer {
+  background-color: #333;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  margin-top: auto; /* Faz o footer se mover para o final */
+}
+
+.project-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 20px;
 }
