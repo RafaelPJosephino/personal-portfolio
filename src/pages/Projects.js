@@ -1,6 +1,5 @@
-// Projects.js
 import React from 'react';
-import projectsData from '../assets/projects.json'; // Certifique-se de que o caminho esteja correto
+import projectsData from '../assets/projects.json'; 
 import './Projects.css';
 import Slider from 'react-slick';
 
@@ -9,12 +8,19 @@ const Projects = () => {
     dots: true,
     infinite: true,
     speed: 500,
-    slidesToShow: 3, // Exibir até 3 projetos
+    slidesToShow: 3, 
     slidesToScroll: 1,
-    centerMode: true, // Para melhor espaçamento
+    centerMode: true, 
     responsive: [
       {
-        breakpoint: 768, // Para telas menores que 768px
+        breakpoint: 1440, 
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 1,
+        },
+      },
+      {
+        breakpoint: 768, 
         settings: {
           slidesToShow: 1,
           slidesToScroll: 1,
