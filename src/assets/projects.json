@@ -17,7 +17,7 @@
   },
   {
     "id": 3,
-    "title": "Global Insights Tribune Api",
+    "title": "Global Insights Tribune Api (In Progress)",
     "description": "This is an API developed in C# using Entity Framework, designed for a news website. The system allows users to create and submit their own news articles, while an administrator is responsible for reviewing and approving or rejecting these submissions.",
     "imageUrl": "/assets/img/project-api-global-insights-tribune.png",
     "repositoryUrl": "https://github.com/RafaelPJosephino/",
